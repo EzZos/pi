@@ -13,4 +13,5 @@ selector.addEventListener("focus", clear);
 button.addEventListener("click", () => {
     let option = document.getElementById("risks").value;
     showResult.textContent = `${results[option]}.00%`;
+    drawChart();
 });
