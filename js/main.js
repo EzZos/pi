@@ -4,9 +4,9 @@ const selector = document.querySelector("select");
 
 const total_casos = 62;
 const quantidade_acidentes = [4, 20, 6, 19, 13];
-var results = [];
+let results = [];
 
-for(var i = 0; i <= 5; i++){
+for(let i = 0; i <= 5; i++){
     results.push(Math.round((quantidade_acidentes[i]/total_casos) * 100));
 }
 
